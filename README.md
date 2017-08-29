@@ -24,7 +24,7 @@ Add-VpnConnection -Name $name -ServerAddress $address -TunnelType L2tp -Encrypti
 Set-VpnConnectionUsernamePassword -connectionname $name -username $username -password $plainpassword -domain ''
  ```
 ### Security
-Please note: you will have to set your policy to permit unsigned PowerShell scripts to execute, to execute this command.
+Please note: you will have to set your policy to permit unsigned PowerShell scripts to execute, to run this command.
 
 If you're nervous about doing this, the actual script source code can be found [here](https://www.powershellgallery.com/packages/VPNCredentialsHelper/1.1/Content/VPNCredentialsHelper.psm1).
 
